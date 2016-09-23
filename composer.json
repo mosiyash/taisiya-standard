@@ -18,5 +18,17 @@
   "require": {
     "php": ">=7.1",
     "taisiya/core-bundle": "dev-master"
+  },
+  "require-dev": {
+    "composer/composer": "*"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "Composer\\ScriptHandler::copySettings"
+    ],
+    "post-update-cmd": [
+      "Composer\\ScriptHandler::copySettings",
+      "Composer\\ScriptHandler::mergeSettings"
+    ]
   }
 }

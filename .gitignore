@@ -2,5 +2,8 @@
 *.env
 /.idea
 /.vagrant
+/app/config/*.default.php
+!/app/config/settings.default.php
 /app/config/*.local.php
+/app/config/settings.php
 /vendor
