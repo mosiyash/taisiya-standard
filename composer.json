@@ -1,0 +1,19 @@
+{
+  "name": "taisiya/standard-edition",
+  "license": "MIT",
+  "type": "project",
+  "description": "The \"Taisiya Standard Edition\" distribution",
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=7.1"
+  }
+}
