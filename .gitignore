@@ -1,5 +1,6 @@
+*.box
+*.env
 /.idea
 /.vagrant
+/app/config/*.local.php
 /vendor
-*.env
-*.box
