@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "811eb67a735b6fa21e2bb316077286a6",
+    "hash": "5e4a8325cc9750c63cd8ddf0bc1f786b",
     "content-hash": "15bb1899906ec16b347ec313e03b69ad",
     "packages": [
         {
@@ -739,12 +739,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mosiyash/taisiya-core-bundle.git",
-                "reference": "0a22f4a900b7748cae760205e1385739a77f4ada"
+                "reference": "a26dc812e2421a18bb4c373bc6e95cd38ef0f28a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mosiyash/taisiya-core-bundle/zipball/0a22f4a900b7748cae760205e1385739a77f4ada",
-                "reference": "0a22f4a900b7748cae760205e1385739a77f4ada",
+                "url": "https://api.github.com/repos/mosiyash/taisiya-core-bundle/zipball/a26dc812e2421a18bb4c373bc6e95cd38ef0f28a",
+                "reference": "a26dc812e2421a18bb4c373bc6e95cd38ef0f28a",
                 "shasum": ""
             },
             "require": {
@@ -768,7 +768,7 @@
                 "MIT"
             ],
             "description": "The \"Core Bundle\".",
-            "time": "2016-10-04 10:12:22"
+            "time": "2016-10-04 11:23:10"
         }
     ],
     "packages-dev": [
