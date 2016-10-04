@@ -9,4 +9,5 @@ npm-debug.log
 !/app/config/settings.default.php
 /app/config/*.local.php
 /app/config/settings.php
+/pimple.json
 /vendor

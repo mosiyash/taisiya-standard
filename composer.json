@@ -20,7 +20,8 @@
     "taisiya/core-bundle": "dev-master"
   },
   "require-dev": {
-    "composer/composer": "*"
+    "composer/composer": "*",
+    "jbzoo/pimpledumper": "^1.2"
   },
   "scripts": {
     "post-install-cmd": [
