@@ -1,0 +1,22 @@
+{
+  "name": "taisiya-standard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mosiyash/taisiya-standard.git"
+  },
+  "author": "Nikita Mosiyash <nikita.mosiyash@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mosiyash/taisiya-standard/issues"
+  },
+  "homepage": "https://github.com/mosiyash/taisiya-standard",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
