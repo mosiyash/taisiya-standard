@@ -24,7 +24,8 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "Composer\\ScriptHandler::copySettings"
+      "Composer\\ScriptHandler::copySettings",
+      "Composer\\ScriptHandler::mergeSettings"
     ],
     "post-update-cmd": [
       "Composer\\ScriptHandler::copySettings",
