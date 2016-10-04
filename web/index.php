@@ -13,7 +13,7 @@ $app = new App(require ROOT_DIR.'/app/config/settings.php');
 
 /** @var Container $container */
 $container = $app->getContainer();
-$container->register(new PimpleDumper());
+$container->register(new PimpleDumper()); // todo: register by settings value
 $container->register(new CoreServiceProvider($app));
 
 $app->run();
