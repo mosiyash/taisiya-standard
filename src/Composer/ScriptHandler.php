@@ -83,7 +83,7 @@ class ScriptHandler
         }
 
         if (!file_put_contents(ROOT_DIR.'/app/config/settings.php', "<?php\n\nreturn ".var_export($settings, true).";\n")) {
-            $event->getIO()->writeError('  - <error>Couldn\'t write app/config/settings.php</error>');
+            $event->getIO()->writeError('  - <error>couldn\'t write app/config/settings.php</error>');
         } else {
             $event->getIO()->write('  - <info>writed to app/config/settings.php</info>');
         }
