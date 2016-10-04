@@ -1,5 +1,7 @@
 *.box
 *.env
+composer.lock
+node_modules
 npm-debug.log
 /.idea
 /.vagrant
