@@ -32,8 +32,6 @@ class ScriptHandler
                 $event->getIO()->write('  - <info>'.str_replace(ROOT_DIR.'/', '', $file->getPathname()).' is copied to '.str_replace(ROOT_DIR.'/', '', $dest).'</info>');
             }
         }
-
-        return;
     }
 
     public static function mergeSettings(Event $event): void
@@ -89,7 +87,18 @@ class ScriptHandler
         } else {
             $event->getIO()->write('  - <info>writed to app/config/settings.php</info>');
         }
+    }
 
-        return;
+    public static function createPhinxConfigFile(Event $event): void
+    {
+        $settings = require ROOT_DIR.'/app/config/settings.php';
+
+        if (empty($settings['phinx'])) {
+            $event->getIO()->writeError('  - <error>phinx configuration is empty</error>');
+        } elseif (!file_put_contents(ROOT_DIR.'/phinx.php', "<?php\n\nreturn ".var_export($settings['phinx'], true).";\n")) {
+            $event->getIO()->writeError('  - <error>couldn\'t write a file: '.ROOT_DIR.'/phinx.php</error>');
+        } else {
+            $event->getIO()->write('  - <info>writed to '.ROOT_DIR.'/phinx.php</info>');
+        }
     }
 }

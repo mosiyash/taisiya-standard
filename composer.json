@@ -26,11 +26,13 @@
   "scripts": {
     "post-install-cmd": [
       "Composer\\ScriptHandler::copySettings",
-      "Composer\\ScriptHandler::mergeSettings"
+      "Composer\\ScriptHandler::mergeSettings",
+      "Composer\\ScriptHandler::createPhinxConfigFile"
     ],
     "post-update-cmd": [
       "Composer\\ScriptHandler::copySettings",
-      "Composer\\ScriptHandler::mergeSettings"
+      "Composer\\ScriptHandler::mergeSettings",
+      "Composer\\ScriptHandler::createPhinxConfigFile"
     ]
   }
 }

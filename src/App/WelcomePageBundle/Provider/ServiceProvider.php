@@ -5,7 +5,7 @@ namespace App\WelcomePageBundle\Provider;
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
 
-class WelcomePageServiceProvider implements ServiceProviderInterface
+class ServiceProvider implements ServiceProviderInterface
 {
     public function register(Container $pimple)
     {

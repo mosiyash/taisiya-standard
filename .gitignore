@@ -10,4 +10,5 @@ npm-debug.log
 /app/config/*.local.php
 /app/config/settings.php
 /pimple.json
+/phinx.php
 /vendor
