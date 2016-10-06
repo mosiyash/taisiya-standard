@@ -17,7 +17,8 @@
   },
   "require": {
     "php": ">=7.1",
-    "taisiya/core-bundle": "dev-master"
+    "taisiya/core-bundle": "dev-master",
+    "taisiya/propel-bundle": "dev-master"
   },
   "require-dev": {
     "composer/composer": "*",
